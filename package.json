@@ -1,10 +1,9 @@
 {
-  "name": "aluracord-mario",
+  "name": "aluracord-mxmotta",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@skynexui/components": "1.23.7",
     "next": "^12.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
@@ -14,5 +13,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.16"
   }
 }
